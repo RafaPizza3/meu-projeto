@@ -11,4 +11,4 @@ jobs:
         run: docker build -t app-teste:local .
 
       - name: 3. Executar o container para validar
-        run: docker run --rm app-teste:local .
+        run: docker run --rm app-teste:local 
